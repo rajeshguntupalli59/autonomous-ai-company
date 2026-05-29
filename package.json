@@ -1,0 +1,15 @@
+{
+  "name": "autonomous-ai-company",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev:dashboard": "pnpm --filter dashboard dev",
+    "build:dashboard": "pnpm --filter dashboard build",
+    "build:types": "pnpm --filter shared-types build",
+    "typecheck": "pnpm --filter shared-types typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
