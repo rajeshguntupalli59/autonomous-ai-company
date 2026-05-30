@@ -47,7 +47,7 @@ export default function Features() {
         }}
       />
 
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative z-10 max-w-screen-xl mx-auto px-6 lg:px-10">
         <div className="text-center mb-14">
           <div
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium mb-4"

@@ -228,6 +228,44 @@ body {
   width: 100%;
 }
 
+/* Browser window mockup */
+.browser-window {
+  background: #141424;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 40px 100px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.05);
+}
+
+.browser-titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  height: 40px;
+  background: #1c1c2e;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.browser-url {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+  flex: 0 0 auto;
+  width: 220px;
+  justify-content: center;
+}
+
+.browser-content {
+  overflow: hidden;
+}
+
 /* Pricing card popular badge */
 .popular-badge {
   background: linear-gradient(135deg, #FF6B1A, #FF8C42);

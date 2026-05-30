@@ -41,7 +41,7 @@ export default function HowItWorks() {
         }}
       />
 
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative z-10 max-w-screen-xl mx-auto px-6 lg:px-10">
         {/* Header */}
         <div className="text-center mb-16">
           <div

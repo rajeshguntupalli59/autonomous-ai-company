@@ -274,7 +274,7 @@ export default function ResultsDashboard() {
 
   return (
     <div className="min-h-screen pt-20 pb-24" style={{ background: '#050508' }}>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6">
+      <div className="max-w-screen-xl mx-auto px-6 lg:px-10">
         {/* Header */}
         <div className="text-center mb-10">
           <div className="text-5xl mb-3">🎉</div>
